@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+#shapes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.shape{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid ;
+    margin: 10px;
+}
+.shape:hover{
+    background-color: violet;
+    border-radius: 50%;
+}
+
+
